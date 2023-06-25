@@ -1,0 +1,220 @@
+/* Define some base styles for the whole document */
+@font-face {
+  font-family: run; /* Provide a name for the font */
+  src: url(fonts/run.otf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: deadly; /* Provide a name for the font */
+  src: url(fonts/deadly.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: death; /* Provide a name for the font */
+  src: url(fonts/death.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: gloomy; /* Provide a name for the font */
+  src: url(fonts/gloomy.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: melted; /* Provide a name for the font */
+  src: url(fonts/melted.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: night; /* Provide a name for the font */
+  src: url(fonts/night.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: nightscary; /* Provide a name for the font */
+  src: url(fonts/nightscary.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: nightside; /* Provide a name for the font */
+  src: url(fonts/nightside.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: satan; /* Provide a name for the font */
+  src: url(fonts/satan.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: storm; /* Provide a name for the font */
+  src: url(fonts/storm.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: strange; /* Provide a name for the font */
+  src: url(fonts/strange.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: strangerback; /* Provide a name for the font */
+  src: url(fonts/strangerback.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: swamp; /* Provide a name for the font */
+  src: url(fonts/swamp.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: bloodlust; /* Provide a name for the font */
+  src: url(fonts/bloodlust.ttf); /* Specify the path to your font file */
+}
+@font-face {
+  font-family: danger; /* Provide a name for the font */
+  src: url(fonts/danger.ttf); /* Specify the path to your font file */
+}
+
+h1 {
+font-family: run;
+color: #c2c2c2
+margin 5px;
+padding: 5px;
+background: #74747400;
+line-height: 1.6em;
+text-align: center;
+font-size: 30px;
+letter-spacing: 3px;
+}
+
+h2 {
+font-family: run;
+color: #c2c2c2
+margin 5px;
+padding: 5px;
+background: #74747400;
+line-height: 1.6em;
+text-align: center;
+font-size: 20px;
+letter-spacing: 2px;
+}
+
+h3 {
+font-family: gloomy;
+color: #c2c2c2
+margin 5px;
+padding: 5px;
+background: #74747400;
+line-height: 1.6em;
+text-align: center;
+letter-spacing: 1px;
+}
+
+h4 {
+font-family: 'Open Sans';
+color: #ff0505
+margin 50px;
+padding: 100px;
+background: #74747400;
+line-height: 1.2em;
+text-align: center;
+font-size: 30px;
+letter-spacing: 1px;
+top: 50px;
+}
+
+h5 {
+font-family: run;
+color: #ff0505
+margin 10px;
+padding: 10px;
+background: #74747400;
+line-height: 1.2em;
+text-align: center;
+font-size: 30px;
+letter-spacing: 1px;
+top: 50px;
+}
+
+
+body {
+font-family: 'Open Sans', sans-serif;
+color: #b1b1b1;
+margin: 0;
+padding: 0;
+background: #74747400;
+line-height: 2em;
+text-align: center;
+}
+
+}
+
+/* Style for the header */
+#header {
+background-color: #007BFF;
+color: #ffffff00;
+padding: 20px 0;
+text-align: center;
+margin-bottom: 30px;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#header h1 {
+margin: 0;
+font-size: 2em;
+}
+
+/* Navigation styles */
+#nav {
+background-color: white;
+padding: 15px;
+text-align: center;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#nav ul {
+list-style-type: none;
+padding: 0;
+display: inline-flex;
+justify-content: center;
+}
+
+#nav ul li {
+margin-right: 15px;
+}
+
+#nav ul li a {
+color: #007BFF;
+text-decoration: none;
+font-size: 1.2em;
+transition: color 0.3s ease;
+}
+
+#nav ul li a:hover {
+color: #0056b3;
+}
+
+/* Content sections styles */
+.content-section {
+margin: 30px 15px;
+background-color: #0000001f;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+color: #82878c;
+font-size: 1.5em;
+margin-bottom: 10px;
+}
+
+.content-section p {
+color: #666;
+}
+
+.content-section img {
+width: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+/* Responsive design for different screen sizes */
+@media screen and (min-width: 600px) {
+body {
+    padding: 0 10%;
+}
+
+#nav ul {
+    justify-content: flex-start;
+}
+
+.content-section {
+    margin: 30px 0;
+}
+}
