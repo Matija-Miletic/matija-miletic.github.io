@@ -1,67 +1,66 @@
-/* Define some base styles for the whole document */
 @font-face {
-  font-family: run; /* Provide a name for the font */
-  src: url(fonts/run.otf); /* Specify the path to your font file */
+  font-family: run;
+  src: url(fonts/run.otf);
 }
 @font-face {
-  font-family: deadly; /* Provide a name for the font */
-  src: url(fonts/deadly.ttf); /* Specify the path to your font file */
+  font-family: deadly;
+  src: url(fonts/deadly.ttf);
 }
 @font-face {
-  font-family: death; /* Provide a name for the font */
-  src: url(fonts/death.ttf); /* Specify the path to your font file */
+  font-family: death;
+  src: url(fonts/death.ttf); 
 }
 @font-face {
-  font-family: gloomy; /* Provide a name for the font */
-  src: url(fonts/gloomy.ttf); /* Specify the path to your font file */
+  font-family: gloomy;
+  src: url(fonts/gloomy.ttf);
 }
 @font-face {
-  font-family: melted; /* Provide a name for the font */
-  src: url(fonts/melted.ttf); /* Specify the path to your font file */
+  font-family: melted; 
+  src: url(fonts/melted.ttf);
 }
 @font-face {
-  font-family: night; /* Provide a name for the font */
-  src: url(fonts/night.ttf); /* Specify the path to your font file */
+  font-family: night; 
+  src: url(fonts/night.ttf); 
 }
 @font-face {
-  font-family: nightscary; /* Provide a name for the font */
-  src: url(fonts/nightscary.ttf); /* Specify the path to your font file */
+  font-family: nightscary;
+  src: url(fonts/nightscary.ttf);
 }
 @font-face {
-  font-family: nightside; /* Provide a name for the font */
-  src: url(fonts/nightside.ttf); /* Specify the path to your font file */
+  font-family: nightside; 
+  src: url(fonts/nightside.ttf); 
 }
 @font-face {
-  font-family: satan; /* Provide a name for the font */
-  src: url(fonts/satan.ttf); /* Specify the path to your font file */
+  font-family: satan; 
+  src: url(fonts/satan.ttf); 
 }
 @font-face {
-  font-family: storm; /* Provide a name for the font */
-  src: url(fonts/storm.ttf); /* Specify the path to your font file */
+  font-family: storm; 
+  src: url(fonts/storm.ttf); 
 }
 @font-face {
-  font-family: strange; /* Provide a name for the font */
-  src: url(fonts/strange.ttf); /* Specify the path to your font file */
+  font-family: strange; 
+  src: url(fonts/strange.ttf); 
 }
 @font-face {
-  font-family: strangerback; /* Provide a name for the font */
-  src: url(fonts/strangerback.ttf); /* Specify the path to your font file */
+  font-family: strangerback; 
+  src: url(fonts/strangerback.ttf);
 }
 @font-face {
-  font-family: swamp; /* Provide a name for the font */
-  src: url(fonts/swamp.ttf); /* Specify the path to your font file */
+  font-family: swamp; 
+  src: url(fonts/swamp.ttf); 
 }
 @font-face {
-  font-family: bloodlust; /* Provide a name for the font */
-  src: url(fonts/bloodlust.ttf); /* Specify the path to your font file */
+  font-family: bloodlust; 
+  src: url(fonts/bloodlust.ttf); 
 }
 @font-face {
-  font-family: danger; /* Provide a name for the font */
-  src: url(fonts/danger.ttf); /* Specify the path to your font file */
+  font-family: danger; 
+  src: url(fonts/danger.ttf); 
 }
 
 h1 {
-font-family: run;
+font-family: run, 'Open Sans';
 color: #c2c2c2
 margin 5px;
 padding: 5px;
@@ -73,8 +72,8 @@ letter-spacing: 3px;
 }
 
 h2 {
-font-family: run;
-color: #c2c2c2
+font-family: run, 'Open Sans';
+color: #f0ebeb
 margin 5px;
 padding: 5px;
 background: #74747400;
@@ -85,7 +84,7 @@ letter-spacing: 2px;
 }
 
 h3 {
-font-family: gloomy;
+font-family: gloomy, 'Open Sans';
 color: #c2c2c2
 margin 5px;
 padding: 5px;
@@ -109,7 +108,7 @@ top: 50px;
 }
 
 h5 {
-font-family: run;
+font-family: run, 'Open Sans';
 color: #ff0505
 margin 10px;
 padding: 10px;
@@ -134,7 +133,7 @@ text-align: center;
 
 }
 
-/* Style for the header */
+
 #header {
 background-color: #007BFF;
 color: #ffffff00;
@@ -149,7 +148,7 @@ margin: 0;
 font-size: 2em;
 }
 
-/* Navigation styles */
+
 #nav {
 background-color: white;
 padding: 15px;
@@ -179,7 +178,7 @@ transition: color 0.3s ease;
 color: #0056b3;
 }
 
-/* Content sections styles */
+
 .content-section {
 margin: 30px 15px;
 background-color: #0000001f;
@@ -204,7 +203,6 @@ height: auto;
 border-radius: 5px;
 }
 
-/* Responsive design for different screen sizes */
 @media screen and (min-width: 600px) {
 body {
     padding: 0 10%;
