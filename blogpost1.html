@@ -1,46 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-
-  
+  <head>
     <title>T̼͕ͯ̽ͦ̃ͭ̎H̘͉̯͐ͦ͑̔Ẻ̴̡̡̪͈̘̽ͭ̋̋̊͌͛̇̓̏͜ F͓̟͖̦̟̀̈́ͥ͌̉͂̒ͥ͟O̴̟̘̼̞̺͓͂̌̌̿̎͡R̨̩̣̤̰͚͈̥̩̈́̊͆̓̓͌͢͡BI̽D̬̤͍̲̓ͤͪ͛͌̌D̶̶͖̱̻̾̓̑̓ͦ̈̎̆̈͘EN̝̹̜̜ͭͩ BͪL̝̮̤͚͙̯̦͗̆̽̀ͬͧͭ͠O̶̢̻̗̦̐͒ͩG̡̮̝̖̠̳̳̝̔̂͐̉̐ͩ - Classes & IDs</title>
 
-  
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <style>
-        body {
-            background-image: url("images/sabina-music-rich-OJy0JHnoUZQ-unsplash.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-            top: 50px;
-        }
+      body {
+        background-image: url('../matija-miletic.github.io/Images/sabina-music-rich-OJy0JHnoUZQ-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 50px;
+      }
 
-        body::before {
-            content: "";
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            z-index: -1;
-        }
+      body::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+      }
 
-        #header {
-            color: #f00; 
-        }
+      #header {
+        color: #f00;
+      }
 
-        #subheader {
-            color: #ffffff;
-        }
+      #subheader {
+        color: #ffffff;
+      }
 
-        .content-section {
-            color: #8e8e8e;
-        }
+      .content-section {
+        color: #8e8e8e;
+      }
       #intro {
         color: #b0b0b0;
       }
@@ -48,143 +44,133 @@
         color: #8f0000;
       }
       #behold {
-        color:white;
+        color: white;
       }
-        #section-title {
-            color: #c3c2c2;
-        }
-        .image-container {
-      text-align: center;
-    }
+      #section-title {
+        color: #c3c2c2;
+      }
+      .image-container {
+        text-align: center;
+      }
 
-    .image-container img {
-      display: inline-block;
-    }
+      .image-container img {
+        display: inline-block;
+      }
 
-    a {
-      color: #fff; /
-      text-decoration: none;
-    }
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
 
-    a:hover {
-      color: #f00;
-      text-decoration: underline;
-    }
-
-      
+      a:hover {
+        color: #f00;
+        text-decoration: underline;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="header">
-        <h1>CLASSES vs IDs</h1>
+      <h1>CLASSES vs IDs</h1>
     </div>
-  
+
     <div id="subheader">
-        <h2>Basics and best practices</h2>
+      <h2>Basics and best practices</h2>
     </div>
-<hr>
+    <hr />
     <div>
-    <h3>
-        What are Classes and IDs?
-    </h3>
-    <p><strong>Classes</strong></p>
-    <p>
-        In CSS, classes are reusable styles that can be 
-        applied to multiple HTML elements. You declare them 
-        using a period (.) followed by the class name. For 
-        instance, you might create a class to style all your buttons similarly:
-    </p>
-         <img src="bp1resources/Capture.PNG" alt="Classes example">
+      <h3>What are Classes and IDs?</h3>
+      <p><strong>Classes</strong></p>
+      <p>
+        In CSS, classes are reusable styles that can be applied to multiple HTML
+        elements. You declare them using a period (.) followed by the class
+        name. For instance, you might create a class to style all your buttons
+        similarly:
+      </p>
+      <img src="bp1resources/Capture.PNG" alt="Classes example" />
     </div>
 
     <div>
-        <p>
-            You can then apply this class to any HTML element you want:
-        </p>
-         <img src="bp1resources/Capture1.PNG" alt="Classes example">
-    </div>
-    
-    <div>
-        <p><strong>IDs</strong></p>
-        <p>
-            IDs are unique identifiers you can assign to a specific HTML element. 
-            They are declared using a hash (#) followed by the ID name. 
-            An ID can only be used once per page, making it great for 
-            single, unique elements. For example:
-        </p>
-        <img src="bp1resources/Capture2.PNG" alt="IDs example">
+      <p>You can then apply this class to any HTML element you want:</p>
+      <img src="bp1resources/Capture1.PNG" alt="Classes example" />
     </div>
 
     <div>
-        <p>
-            And applied in HTML as:
-        </p>
-        <img src="bp1resources/Capture3.PNG" alt="IDs example">
-    </div>
-<hr>
-    <div>
-        <h3>
-            Best Practices for Using Classes and IDs
-        </h3>
-        <p><strong>Use Classes for Reusability, IDs for Specificity</strong></p>
-        <p>
-            As classes are reusable, it is best to use them when 
-            you want to style multiple elements similarly. This reduces 
-            redundancy in your code and keeps it DRY (Don't Repeat Yourself). 
-            On the other hand, use IDs when you have a unique element on the 
-            page that requires specific styling.
-        </p>
-    </div>
-    <br>
-    <div>
-    <p><strong>Use Descriptive Names</strong></p>
-        <p>
-            When naming your classes or IDs, it's good practice 
-            to use names that describe their function or the content 
-            they style. This increases code readability and maintainability.
-            For instance, a class name "button" is more readable than "class1".
-        </p>
-    </div>
-    <br>
-    <div>
-    <p><strong>IDs Have Higher Specificity</strong></p>
-        <p>
-            In CSS, specificity determines which rules are applied when 
-            there is a conflict between different rules that could apply 
-            to the same element. IDs have a higher specificity than classes, 
-            meaning if you have a class and an ID on the same element, and 
-            both are trying to style the same property differently, the ID will win.
-        </p>
-        <img src="bp1resources/Capture4.PNG" alt="IDs example">
-        <img src="bp1resources/Capture5.PNG" alt="IDs example">
-        <p>
-            In the example above, the text will be blue, not red, 
-            because the ID has a higher specificity than the class.
-        </p>
-    </div>
-    <br>
-    <div>
-    <p><strong>Limit ID Use for Styling</strong></p>
-        <p>
-            Due to their high specificity, IDs can lead to 
-            issues maintaining and scaling your CSS. Therefore, 
-            it's often recommended to mostly use classes for styling, 
-            and reserve IDs for JavaScript selection or as anchors.
-        </p>
-    </div>
-    <br>
-    <div>
-    <p><strong>Conclusion</strong></p>
-        <p>
-            In conclusion, understanding when and how to use 
-            Classes and IDs efficiently can make your CSS more 
-            maintainable, scalable, and clean. It
-        </p>
+      <p><strong>IDs</strong></p>
+      <p>
+        IDs are unique identifiers you can assign to a specific HTML element.
+        They are declared using a hash (#) followed by the ID name. An ID can
+        only be used once per page, making it great for single, unique elements.
+        For example:
+      </p>
+      <img src="bp1resources/Capture2.PNG" alt="IDs example" />
     </div>
 
-<hr>
-<br>
-  <a href="index.html">Home</a>
-<br>
-</body>
+    <div>
+      <p>And applied in HTML as:</p>
+      <img src="bp1resources/Capture3.PNG" alt="IDs example" />
+    </div>
+    <hr />
+    <div>
+      <h3>Best Practices for Using Classes and IDs</h3>
+      <p><strong>Use Classes for Reusability, IDs for Specificity</strong></p>
+      <p>
+        As classes are reusable, it is best to use them when you want to style
+        multiple elements similarly. This reduces redundancy in your code and
+        keeps it DRY (Don't Repeat Yourself). On the other hand, use IDs when
+        you have a unique element on the page that requires specific styling.
+      </p>
+    </div>
+    <br />
+    <div>
+      <p><strong>Use Descriptive Names</strong></p>
+      <p>
+        When naming your classes or IDs, it's good practice to use names that
+        describe their function or the content they style. This increases code
+        readability and maintainability. For instance, a class name "button" is
+        more readable than "class1".
+      </p>
+    </div>
+    <br />
+    <div>
+      <p><strong>IDs Have Higher Specificity</strong></p>
+      <p>
+        In CSS, specificity determines which rules are applied when there is a
+        conflict between different rules that could apply to the same element.
+        IDs have a higher specificity than classes, meaning if you have a class
+        and an ID on the same element, and both are trying to style the same
+        property differently, the ID will win.
+      </p>
+      <img src="bp1resources/Capture4.PNG" alt="IDs example" />
+    </div>
+    <div>
+      <img src="bp1resources/Capture5.PNG" alt="IDs example" />
+      <p>
+        In the example above, the text will be blue, not red, because the ID has
+        a higher specificity than the class.
+      </p>
+    </div>
+    <br />
+    <div>
+      <p><strong>Limit ID Use for Styling</strong></p>
+      <p>
+        Due to their high specificity, IDs can lead to issues maintaining and
+        scaling your CSS. Therefore, it's often recommended to mostly use
+        classes for styling, and reserve IDs for JavaScript selection or as
+        anchors.
+      </p>
+    </div>
+    <br />
+    <div>
+      <p><strong>Conclusion</strong></p>
+      <p>
+        In conclusion, understanding when and how to use Classes and IDs
+        efficiently can make your CSS more maintainable, scalable, and clean. It
+      </p>
+    </div>
+
+    <hr />
+    <br />
+    <a href="index.html">Home</a>
+    <br />
+  </body>
 </html>
