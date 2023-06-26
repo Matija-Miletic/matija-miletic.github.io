@@ -1,62 +1,62 @@
 @font-face {
   font-family: run;
-  src: url(../Fonts/run.otf);
+  src: url(../fonts/run.otf);
 }
 @font-face {
   font-family: deadly;
-  src: url(../Fonts/deadly.ttf);
+  src: url(../fonts/deadly.ttf);
 }
 @font-face {
   font-family: death;
-  src: url(../Fonts/death.ttf);
+  src: url(../fonts/death.ttf);
 }
 @font-face {
   font-family: gloomy;
-  src: url(../Fonts/gloomy.ttf);
+  src: url(../fonts/gloomy.ttf);
 }
 @font-face {
   font-family: melted;
-  src: url(../Fonts/melted.ttf);
+  src: url(../fonts/melted.ttf);
 }
 @font-face {
   font-family: night;
-  src: url(../Fonts/night.ttf);
+  src: url(../fonts/night.ttf);
 }
 @font-face {
   font-family: nightscary;
-  src: url(../Fonts/nightscary.ttf);
+  src: url(../fonts/nightscary.ttf);
 }
 @font-face {
   font-family: nightside;
-  src: url(../Fonts/nightside.ttf);
+  src: url(../fonts/nightside.ttf);
 }
 @font-face {
   font-family: satan;
-  src: url(../Fonts/satan.ttf);
+  src: url(../fonts/satan.ttf);
 }
 @font-face {
   font-family: storm;
-  src: url(../Fonts/storm.ttf);
+  src: url(../fonts/storm.ttf);
 }
 @font-face {
   font-family: strange;
-  src: url(../Fonts/strange.ttf);
+  src: url(../fonts/strange.ttf);
 }
 @font-face {
   font-family: strangerback;
-  src: url(../Fonts/strangerback.ttf);
+  src: url(../fonts/strangerback.ttf);
 }
 @font-face {
   font-family: swamp;
-  src: url(../Fonts/swamp.ttf);
+  src: url(../fonts/swamp.ttf);
 }
 @font-face {
   font-family: bloodlust;
-  src: url(../Fonts/bloodlust.ttf);
+  src: url(../fonts/bloodlust.ttf);
 }
 @font-face {
   font-family: danger;
-  src: url(../Fonts/danger.ttf);
+  src: url(../fonts/danger.ttf);
 }
 
 h1 {
