@@ -169,10 +169,9 @@ body {
 }
 
 .content-section {
-  margin: 30px 15px;
-  background-color: #0000001f;
-  padding: 20px;
-  border-radius: 5px;
+  margin: 20px 15px;
+  background-color: #ffffff1b;
+  padding: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
