@@ -6,6 +6,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
+
+    <script>
+      window.onload = function () {
+        var textElement = document.getElementById('changingText')
+        var texts = [
+          'T̼͕ͯ̽ͦ̃ͭ̎H̘͉̯͐ͦ͑̔Ẻ̴̡̡̪͈̘̽ͭ̋̋̊͌͛̇̓̏͜ F͓̟͖̦̟̀̈́ͥ͌̉͂̒ͥ͟O̴̟̘̼̞̺͓͂̌̌̿̎͡R̨̩̣̤̰͚͈̥̩̈́̊͆̓̓͌͢͡BI̽D̬̤͍̲̓ͤͪ͛͌̌D̶̶͖̱̻̾̓̑̓ͦ̈̎̆̈͘EN̝̹̜̜ͭͩ BͪL̝̮̤͚͙̯̦͗̆̽̀ͬͧͭ͠O̶̢̻̗̦̐͒ͩG̡̮̝̖̠̳̳̝̔̂͐̉̐ͩ',
+          'Ţ̸͇͍͍͔̦̮̼̌̇͐̀̕H̶̲̣̥̞̠̹͒̀̈́͌͗̒͘E̴̢̨̧̜̤̣̊͊̈́̈́̾͗͛͋̓̿̾̃ ̷̗̱̪͙̬̫̝͖̦̙͆̀̍̐̕ͅF̵̛̛̥̤͕̖̯̟̀̈̐̃̿͋̐́̔̆̔̚͝Ǫ̸̢̤̼̖͖͉̦̙͓̥̙̀̋̾̊͒̾̐͐̚R̴̛͓͕̫̪͐͊̎̿̾͌̔̌̈̔̿̚͠B̶̢̲̭͔̯̼̱̪͙̮͔͊́̂͐̚͠͝ͅI̶̧̾͆͊̚D̷̢̻̱͓̖̬̙̝͚̫̭̺͍̈͐̎͜D̷͎͇̞͍̼̲̹̰͛̐͆̈͂̽̂͌͘Ẹ̶̰̠̹̅̍̏̇͌̾̋́͌̀N̷̯͕͓̼̆̈́̊͋̿̈̌͋̚ ̷̢̮͎̠͔̞͚̝̠͋̀̚Ḇ̷͙̳͔͕̪̠̱̭̠͕̗̺̺̃̂͗̄̐̈̓̍̋͂͘͘͠Ļ̴̠͓͔̜̠̟̥̉̄͛̉̈̆͂͊͜͜͝ͅͅO̴̙̗̦͚̲̤͍̍̆́͋͠G̸͓̻͌̓̀͛̐͛͗̅̀̉͑̃͘͠͝',
+          'T̶̼̱̠̖̗̟͆̓̎͐̐̍̔Ḧ̷̨̨̹̯̩́̑̉̈Ĕ̴̛͚̭̓̓́̂̅̐͘ ̴͓̮͎͎͚͙̝̌̌̉̽͒F̵̧̧̧̬͚̬̜͍̥̈́̊̊̓̃̈́͒͘͝O̸͖̻̙̫͓̊̂̅́͋̔͝Ŗ̷̟̜̖͉͎͕̓̊̓̋̍̓͋͋͊͜B̶̯̂̀̈́ͅI̷̛̖̭͐̋D̸̡̧̞̪̠͖̆͗̓̄̃͛͝D̸̛̥̞͔̟͇͐̔̄͝Ȅ̷̩̙̼͎́͛͛̓Ņ̷̛͚̻̣͇̲̣͓͉͂͝ ̷̧̛̞̺̻̫̖͚̦̜̃̓̊̐̀́̏̅B̵̨̭̦̺̹̥͂̒͛L̶̦͓̮̲̮̊̿͐̕Ȍ̶̧̡̦̖͌̾͐̐͒̓̈́ͅG̷͔͖͗̿͐̚͘',
+          'T̵̯̥̱̲͚͑̋͊͐̈́̌͠͝H̸̞̮̖́̈̈́͋̚͝Ę̷̣̯̬͔̯͚̄́͊ ̴͙̟̰̜̞̑́͛̎͝F̸̗̙̬̠̼̰̤̱̱̓̀O̸̗̹͆̈́̒̒͋̋R̷̢̩͙̭̯͕̖̭̤̺̍͌̈́̑B̴̠͉̓̄͘͘I̷͙̫̾̀͑̾̏̀͗͐D̵͓̮͔̤̳͉̆̌̒̎̒͊̿͘D̵̨̬̹͕͇̐̍̀̉͜E̷̜̞͂̉̌̈́̅́̾̕Ņ̷͕̗̰̗̣̥̺̭̓̈̏ ̸̼̣̮̝̗̺̥͒̚͝B̶̡̡̛̛̦̼̭͔̹̏̈́̏̉͌̊͆́L̴̡̰̦̙̟̞̅͊ͅÕ̵̧̧̭̗̻͓̳̝̐̈͐͒͂G̶̛̞̝̟̻͍̼͚͆͒̆̆̏̓̎͛͠',
+        ]
+        var index = 0
+
+        function changeText() {
+          textElement.innerHTML =
+            '<h4><strong>' + texts[index] + '</strong></h4>'
+          index = (index + 1) % texts.length
+        }
+
+        setInterval(changeText, 200) // Change text every 2 seconds
+      }
+    </script>
+
     <style>
       body {
         background-image: url('images/skeletonbg.jpg');
@@ -41,7 +63,7 @@
       #intro {
         color: #b0b0b0;
       }
-      #title {
+      .title {
         color: #8f0000;
       }
       #behold {
@@ -81,7 +103,7 @@
       <h3>Welcome, fellow adventurers, to...</h3>
     </div>
 
-    <div id="title">
+    <div id="changingText" class="title">
       <h4><strong>T̼͕ͯ̽ͦ̃ͭ̎H̘͉̯͐ͦ͑̔Ẻ̴̡̡̪͈̘̽ͭ̋̋̊͌͛̇̓̏͜ F͓̟͖̦̟̀̈́ͥ͌̉͂̒ͥ͟O̴̟̘̼̞̺͓͂̌̌̿̎͡R̨̩̣̤̰͚͈̥̩̈́̊͆̓̓͌͢͡BI̽D̬̤͍̲̓ͤͪ͛͌̌D̶̶͖̱̻̾̓̑̓ͦ̈̎̆̈͘EN̝̹̜̜ͭͩ BͪL̝̮̤͚͙̯̦͗̆̽̀ͬͧͭ͠O̶̢̻̗̦̐͒ͩG̡̮̝̖̠̳̳̝̔̂͐̉̐ͩ</strong></h4>
     </div>
     <div id="behold">
