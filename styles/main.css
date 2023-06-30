@@ -204,3 +204,14 @@ body {
     margin: 30px 0;
   }
 }
+
+#ghost {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-image: url('../images/invertedfrontskull.png');
+  background-size: cover;
+  pointer-events: none;
+  transition: all 0.1s ease-out;
+  opacity: 1; /* temporary, for testing */
+}
